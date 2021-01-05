@@ -1,0 +1,39 @@
+Text edotirs:
+gedit 
+nano
+
+Upgrade:
+-- update ubento:
+sudo apt upgrade
+
+change to root:
+sudo su
+Change user:
+su [UserName]
+Create file:
+touch filename.html
+Create folder: 
+mkdir [FolderName]
+lunsh VScode:
+code filename.html
+remove folder:
+rm -d -rf [FolderName]
+Remove non-empty floder:
+rm -d  [FolderName]
+
+Github:
+git init
+git add .
+staging
+branching
+untracked
+git status
+git commit -m 'Création index.html'
+git config --global user.email ""
+git config --global user.name ""
+
+Generate ssh keys:
+ssh-keygen -t rsa -C "user github email"
+
+instal software:
+sudo apt install [SoftwarePath]
