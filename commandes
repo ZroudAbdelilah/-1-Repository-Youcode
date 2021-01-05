@@ -1,39 +1,30 @@
-Text edotirs:
-gedit 
-nano
+Below you will find each tag with its function :
 
-Upgrade:
--- update ubento:
-sudo apt upgrade
-
-change to root:
-sudo su
-Change user:
-su [UserName]
-Create file:
-touch filename.html
-Create folder: 
-mkdir [FolderName]
-lunsh VScode:
-code filename.html
-remove folder:
-rm -d -rf [FolderName]
-Remove non-empty floder:
-rm -d  [FolderName]
-
-Github:
-git init
-git add .
-staging
-branching
-untracked
-git status
-git commit -m 'Création index.html'
-git config --global user.email ""
-git config --global user.name ""
-
-Generate ssh keys:
-ssh-keygen -t rsa -C "user github email"
-
-instal software:
-sudo apt install [SoftwarePath]
+(dir) : directory. 
+(cd) : change directorie.
+(cp) : copy.
+(mv) : move.
+(pwd) : present working directory. 
+(mkdir) : make directory.  
+(rm) : remove.  
+(~) : Home directory. 
+(touch) : creates file. 
+(Ctrl-C) : it stops the command. 
+(ls) : lists files and folders in the current directory. 
+(ls -a) : lists all filles including both visible & & hidden ex:(.file). 
+(sudo su) : change to root.  
+(su [UserName] ) : change to user. 
+(ssh-keygen -t rsa -C "user github email") : generate ssh keys. 
+(gedit or nano or code(VScode)): text edotirs. 
+(update && upgrade) : upgrade. 
+(sudo apt install [SoftwarePath]) : instal software. 
+(git config): it is used to configure user preferences.  
+(git init) : this command is used to create a new GIT repository. 
+(git add): the git add command can be used to add files to the index.
+(clone git) : the git clone command is used for checking repositories.
+(git commit) : the git commit command validates the changes made to the HEAD.  
+(git status) : the git status command displays the list of modified files as well as files that still need to be added or committed. 
+(git push) : git push is another basic GIT command. A simple push  sends the local modifications made to the associated main branch.
+(git pull) : to merge all the changes present on the remote repository into the local working directory, the pull command is used.
+(man) :(Manual page) displays the system manual pages.
+(cat) :(concatenate) displays the contents of a file.       
