@@ -1,2 +1,15 @@
 1-Application commande: man
-2-
+2-Quelle page de manuel voulez-vous ?
+Par exemple, essayez « man man ».
+ -la command man a besoin d'un argument
+3-Applicationcommande: man ls
+4- (espace):défiler vers le bas
+    (entreé):line suivant
+    (b):faire défiler vers le haut
+    (p):retourner a la primiere line
+    (/):pour rechecher un mot
+    (n):repeter la derniaire recherche
+    (g):deffiler au bas de page
+    (q):pour quiter le manuel
+5-   manls : commande introuvable
+  
