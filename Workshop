@@ -3,13 +3,34 @@
 Par exemple, essayez « man man ».
  -la command man a besoin d'un argument
 3-Applicationcommande: man ls
-4- (espace):défiler vers le bas
+4- (espace):page suivant
     (entreé):line suivant
-    (b):faire défiler vers le haut
-    (p):retourner a la primiere line
-    (/):pour rechecher un mot
+    (b):page précédent
+    (p):retourner a la primiere page
+    (/):pour rechecher 
     (n):repeter la derniaire recherche
-    (g):deffiler au bas de page
+    (G):deffiler au bas de page
     (q):pour quiter le manuel
 5-   manls : commande introuvable
-  
+   -manls no fonctionne pas par-ce-quil n'est pas connu comme nom d'applet de commande...
+    'man 3ls':Aucune entrée de manuel pour ls en section 3 
+6-  (ls) : répertorie les fichiers et les dossiers dans le répertoire courant.
+    (ls -l) :un listing ordonné sur une seule colonne, avec de nombreuses informations additionelles (droits, taille, liens symboliques…)
+    (ls -h) :répertorie les fichiers et les dossiers dans le répertoire courant.
+    (ls -h -l) : -h : Associé avec -l affiche la taille des fichiers avec un suffixe correspondant à l'unité (K, M, G)
+    (ls -lh) : donneé la meme fonctionne de (ls -h -l)
+7-  (ls -lct) : un listing par order chronologique
+    (ls -a) : liste toutes les filles, y compris les filles visibles et cachées ex:(.file).
+    (ls /etc/) : afficher le contenu de fichier etc
+    (lsusb) : afficher les bus USB et les périphériques connectés
+    (ls --color) : --color[=Quand] colore la sortie ; Quand peut être 'auto' (par défaut si omis), 'auto' ou 'never';
+8-  (pwd) : present working directory
+    (cd /) : remonter à la racine
+9-  (cd) : aller au répertoire personnel
+    (cd ..) : remonter au répertoire parent
+    (cd /usr/bin/) :se place dans le répertoire bin
+10- c'est fait
+11- c'est fait
+12- c'est fait
+13- c'est fait
+    
