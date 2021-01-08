@@ -28,4 +28,8 @@ Below you will find each tag with its function :
 (git push) : git push is another basic GIT command. A simple push  sends the local modifications made to the associated main branch.
 (git pull) : to merge all the changes present on the remote repository into the local working directory, the pull command is used.
 (man) :(Manual page) displays the system manual pages.
-(cat) :(concatenate) displays the contents of a file.       
+(cat) :(concatenate) displays the contents of a file.
+(git remote) : add git as an alias
+(git fetch) :  fetch down all the branches from that git remote
+(git merge) : merge a remote branch into your current branch to bring it up to date
+(git pull) : fetch and merge any commit from the tracking remote   
